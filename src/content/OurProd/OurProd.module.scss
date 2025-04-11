@@ -1,0 +1,57 @@
+.ourProd {
+  display: block;
+  margin: 45px auto;
+  width: 120%;
+  min-width: 100%;
+  text-align: center;
+  background-image: url('https://sunshint.spb.ru/img/bg_sun.png');
+  background: #f8f8f8;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 95%;
+  &__span {
+    margin-bottom: 25px;
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    color: #008993;
+    background-color: #fff;
+    font-family: Tahoma, sans-serif;
+    padding-left: 10px;
+    &::after {
+      content: "";
+      width: 40px;
+      right: -55px;
+      height: 3px;
+      background-color: #008993;
+      display: block;
+      position: absolute;
+      top: 12px;
+    }
+    &::before {
+      content: "";
+      width: 40px;
+      height: 3px;
+      display: block;
+      position: absolute;
+      background-color: #008993;
+      top: 12px;
+      left: -55px;
+    }
+  }
+  &__p {
+    line-height: 20px;
+    margin-top: 30px;
+    // color: yellowgreen;
+    padding-left: 15px;
+    padding-right: auto;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 14px; 
+  }
+}

@@ -1,0 +1,40 @@
+.ul {
+  list-style: none;
+  position: absolute;
+  right: 15px;
+  top: 30px;
+
+  .tel {
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+    margin-bottom: 3px;
+    position: relative;
+    &::after {
+      // content: url('https://avatars.mds.yandex.net/i?id=8ded43411b2581ecc523809baedff6e2847663ac-3824532-images-thumbs&n=13');
+      content: "";
+      width: 25px;
+      height: 25px;
+      display: block;
+      background-size: 10px 10px;
+      background-image: url("https://avatars.mds.yandex.net/i?id=8ded43411b2581ecc523809baedff6e2847663ac-3824532-images-thumbs&n=13");
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 5px;
+      left: -5px;
+    }
+    .a {
+      color: black;
+      font-size: 13px;
+      font-weight: 800;
+      text-decoration: none;
+      margin-bottom: 3px;
+      transition: all .5s;
+      
+      &:hover {
+        color: #53ccbd;
+      }
+    }
+  }
+}

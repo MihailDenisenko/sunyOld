@@ -1,0 +1,62 @@
+
+.back {
+  z-index: -100;
+  width: 120%;
+  height: 300px;
+  position: absolute;
+  left: -50px;
+  opacity: .1;
+}
+
+.imgLogoBack {
+  width: 300px;
+  height: 800px;
+  opacity: 0.05;
+  min-width: 125%;
+  left: -40px;
+  position: absolute;
+  text-align: center;
+}
+.info {
+  width: 100%;
+  min-height: 150px;
+}
+
+.imgLogoBack {
+  position: relative;
+}
+.logoImg {
+  position: absolute;
+  top: 40px;
+}
+.logo {
+  font: 75px;
+}
+.menu {
+  margin-left: 15px;
+  .spanMenu {
+    transition: all 0.5s;
+    color: #53ccbd;
+
+    &:hover {
+      transform: scale(1.5)
+      
+    }
+  }
+}
+
+.divMenu {
+  transition: all 1s;
+  // animation: fadeIn 0.5s forwards;
+  height: 1px;
+  overflow: hidden;
+
+}
+.divMenuShow{
+  transition: all 1s;
+  height: 200px;
+}
+
+.aboutProd {
+  margin-bottom: 55px;
+}

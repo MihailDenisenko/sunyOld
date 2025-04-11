@@ -1,0 +1,14 @@
+[{
+  "color":"#53ccbd",
+  "sunLogo":"img/logo.jpg",
+  "welcomeLogo":"img/pictursindex/birki.jpg",
+  "printBirki":
+    ["img/exempl/birki/ex1.jpg",
+    "img/exempl/birki/ex2.jpg",
+    "img/exempl/birki/ex3.jpg",
+    "img/exempl/birki/ex4.jpg",
+    "img/exempl/birki/ex5.jpg",
+    "img/exempl/birki/ex6.jpg"
+  ]
+  
+}]
