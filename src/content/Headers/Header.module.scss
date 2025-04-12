@@ -1,10 +1,72 @@
 .headerDiv {
+  position: relative;
   background-color: #53ccbd;
   text-align: center;
   padding: 10px 5px;
   color: #fff;
-  font-size: 12px;
   line-height: 16px;
   font-weight: 800;
   font-family: Tahoma, Geneva, Verdana, sans-serif;
+  height: 20px;
+  &__closeInp {
+    color: black;
+    z-index: 100;
+    position: absolute;
+    top: 12px;
+    right: 25px;
+  }
+  &__p {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 280px;
+    font-size: 10px;
+    text-align: end;
+    margin-left: auto;
+    transition: all 0.5s;
+    margin-right: auto;
+    &_close {
+      width: 0;
+      height: 0;
+      overflow: hidden;
+      transition: all 0.5s;
+      font-size: 0;
+      padding-bottom: 5px;
+    }
+  }
+  &__searchIcon {
+    color: grey;
+    position: absolute;
+
+    top: 12px;
+    left: 10px;
+    z-index: 10;
+  }
+  &__input {
+    width: calc(100% - 20px);
+    position: absolute;
+    top: 5px;
+    left: 0;
+    z-index: 0;
+    padding-left: 25px;
+    transition: all 0.5s;
+    margin-left: 5px;
+    &_close {
+      transition: all 0.5s;
+      width: 2px;
+      display: none;
+    }
+  }
+}
+
+@media screen and (width>400px) {
+  .headerDiv {
+    &__p {
+      text-align: center;
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 12px;
+    }
+  }
 }

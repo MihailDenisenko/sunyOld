@@ -6,30 +6,34 @@ import styles from "./Home.module.scss";
 import Header from "../Headers/Header";
 import Phones from "../Phones/Phones";
 import AboutProd from "../AboutProd/AboutProd";
-import { CloseOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
+import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
 import Menu from "../Menu/Menu";
 import { useDebouncedCallback } from "use-debounce";
 import MainService from "../MainService/MainServisce";
 import OurProd from "../OurProd/OurProd";
+import { setWidth } from "../../reduce/width";
+
 
 export default function Home() {
   const dispatch = useDispatch();
+  const {width} = useSelector(state=> state.width)
   const { homeUrl, newUrl, logo } = useSelector((state) => state.urlSlicer);
   const [a, setA] = React.useState({});
-  const [widthMon, setWidth] = React.useState(0);
+  // const [widthMon, setWidth] = React.useState(0);
   const [showMenu, setShowMenu] = React.useState(false);
 
   const debounce = useDebouncedCallback(() => {
-    setWidth(window.innerWidth);
+    dispatch(setWidth(window.innerWidth));
   }, 500);
 
+  console.log(width, 'width')
   React.useEffect(() => {
     dispatch(setNewUrl(data));
     setWidth(window.innerWidth);
     window.addEventListener("resize", debounce);
   }, []);
 
-  console.log(widthMon);
+  // console.log(widthMon);
   // React.useEffect(() => {
   //   const b= newUrl.map(n => setA(n))
   //   console.log(a.sunLogo)
@@ -47,7 +51,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.menu}>
-        {widthMon < 400 ? (
+        {width < 400 ? (
           showMenu ? (
             <CloseOutlined
               onClick={() => {
@@ -56,7 +60,8 @@ export default function Home() {
               className={styles.spanMenu}
             />
           ) : (
-            <MenuUnfoldOutlined
+              
+            <MenuOutlined 
               onClick={() => {
                 setShowMenu(!showMenu);
               }}
