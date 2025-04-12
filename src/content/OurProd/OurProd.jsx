@@ -5,7 +5,6 @@ import { useSelector } from "react-redux";
 export default function OurProd() {
   const { ourProd } = useSelector((state) => state.service);
 
-  console.log(ourProd);
   return (
     <div className={styles.ourProd}>
       <span className={styles.ourProd__span}>Наши услуги</span>
