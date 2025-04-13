@@ -4,7 +4,7 @@
   // width: 120%;
   min-width: 100%;
   // background-image: url("https://sunshint.spb.ru/img/bg_sun.png");
-  background: #f8f8f8;
+  // background: #f8f8f8;
   // background: red;
   margin-right: auto;
   // margin-bottom: 150px;
@@ -121,4 +121,15 @@
       }
     }
   }
+}
+.swiper {
+  width: 95px;
+  margin-bottom: 100px;
+}
+
+.bottom {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 200px;
+  width: 100%;
 }
