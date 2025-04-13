@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import styles from "./MainService.module.scss";
 import { useSelector } from "react-redux";

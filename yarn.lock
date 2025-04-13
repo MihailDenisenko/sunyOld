@@ -1483,6 +1483,11 @@ node-releases@^2.0.19:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.19.tgz#9e445a52950951ec4d177d843af370b411caf314"
   integrity sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==
 
+nuka-carousel@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/nuka-carousel/-/nuka-carousel-8.2.0.tgz#fd086423e02acec7643dd04d38aa3d891cc2bd6a"
+  integrity sha512-Wt6rAlSKnhQyZQETfdb5HGSzNc1hcnWls2pA+WpHqi6xq+F44k+oaldFEaSTxvSuVMz2Fo8LhDFGInlYlXepeQ==
+
 optionator@^0.9.3:
   version "0.9.4"
   resolved "https://registry.yarnpkg.com/optionator/-/optionator-0.9.4.tgz#7ea1c1a5d91d764fb282139c88fe11e182a3a734"

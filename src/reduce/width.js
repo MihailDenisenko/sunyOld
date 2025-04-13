@@ -4,6 +4,8 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   width: 0,
   searchShow: false,
+  showHelper: false,
+
 };
 
 const width = createSlice({
@@ -17,9 +19,12 @@ const width = createSlice({
       state.searchShow = action.payload;
       console.log(state.searchShow)
     },
+    setShowHelper(state, action) {
+      state.showHelper = action.payload
+    }
   },
 });
 
-export const { setWidth, setSearchShow } = width.actions;
+export const { setWidth, setSearchShow, setShowHelper } = width.actions;
 
 export default width.reducer;

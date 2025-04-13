@@ -49,7 +49,7 @@ const initialState = {
       logo: "https://sunshint.spb.ru/img/product_10.png",
     },
     {
-      title: "ТолстПередникиовки",
+      title: "Передники",
       logo: "https://sunshint.spb.ru/img/product_11.png",
     },
     {
@@ -79,6 +79,71 @@ const initialState = {
     {
       title: "Сувениры",
       logo: "https://sunshint.spb.ru/img/product_9.png",
+    },
+  ],
+  ourNews: [
+    {
+      logo: "img/catalog/maski2.png",
+      colors: "img/colors/56.png",
+      title: 'Маска защитная "Стандарт"',
+      price: "67",
+      isNew: true,
+    },
+    {
+      logo: "img/catalog/pantsFemDemiSeason.png",
+      colors: "img/colors/5.png",
+      title: "Штаны женские димисезонные",
+      price: "1159",
+      isNew: true,
+    },
+    {
+      logo: "img/catalog/hoodieOS.png",
+      colors: "img/colors/49.png",
+      title: "толстовка Худи Оверсайз",
+      price: "1892",
+      isNew: true,
+    },
+    {
+      logo: "img/catalog/poloStandMan.png",
+      colors: "img/colors/54.png",
+      title: "футболка-поло мужская",
+      price: "801",
+      isNew: true,
+    },
+    {
+      logo: "img/catalog/hvost.png",
+      colors: "img/colors/14.png",
+      title: "футболка удлинённая с разрезами",
+      price: "355",
+      isNew: true,
+    },
+    {
+      logo: "img/catalog/tinstandrt.png",
+      colors: "img/colors/14.png",
+      title: "подростковая футболка на заказ",
+      price: "230",
+      isNew: true,
+    },
+    {
+      logo: "img/catalog/kidstandrt.png",
+      colors: "img/colors/14.png",
+      title: "детские футболки на заказ",
+      price: "220",
+      isNew: true,
+    },
+    {
+      logo: "img/catalog/perednik1.png",
+      colors: "img/colors/51.png",
+      title: "передник фартук модель №1 от производителя Sun",
+      price: "615",
+      isNew: true,
+    },
+    {
+      logo: "img/catalog/perednik2.png",
+      colors: "img/colors/51.png",
+      title: "передник фартук модель 2",
+      price: "561",
+      isNew: true,
     },
   ],
 };

@@ -61,3 +61,11 @@
 .aboutProd {
   margin-bottom: 55px;
 }
+.helper {
+  width: 55px;
+  height: 55px;
+  position:sticky;
+  top: calc(100% - 15%);
+  left: calc(100% - 45px);
+  z-index: 100;
+}

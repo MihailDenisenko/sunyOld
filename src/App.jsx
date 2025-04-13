@@ -17,7 +17,8 @@ function App() {
       onClick={(e) => {
         console.dir(e.target);
         if (e.target.placeholder !== 'Введите искомое') return 0
-    }}>
+      }}>
+      
       <Header />
       <Routes >
         <Route path='/' exact element={<Home  />} />

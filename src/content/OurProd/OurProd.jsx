@@ -9,7 +9,9 @@ export default function OurProd() {
     return (
       <li key={i} className={styles.ourProd__ul_li}>
         <p className={styles.p}>{title}</p>
-        <img src={logo} alt="" className={styles.img} />
+        <div className={styles.div}>
+          <img src={logo} alt="" className={styles.img} />
+        </div>
       </li>
     );
   })
