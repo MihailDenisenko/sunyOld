@@ -87,7 +87,7 @@ const initialState = {
       colors: "img/colors/56.png",
       title: 'Маска защитная "Стандарт"',
       price: "67",
-      isNew: true,
+      isNew: false,
     },
     {
       logo: "img/catalog/pantsFemDemiSeason.png",
@@ -101,7 +101,7 @@ const initialState = {
       colors: "img/colors/49.png",
       title: "толстовка Худи Оверсайз",
       price: "1892",
-      isNew: true,
+      isNew: false,
     },
     {
       logo: "img/catalog/poloStandMan.png",
@@ -115,7 +115,7 @@ const initialState = {
       colors: "img/colors/14.png",
       title: "футболка удлинённая с разрезами",
       price: "355",
-      isNew: true,
+      isNew: false,
     },
     {
       logo: "img/catalog/tinstandrt.png",
