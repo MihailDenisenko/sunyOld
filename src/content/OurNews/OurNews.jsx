@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./OurNews.module.scss";
 import { useSelector } from "react-redux";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import styles from "./OurNews.module.scss";
 
 export default function OurNews() {
   const { ourNews } = useSelector((state) => state.service);
