@@ -51,12 +51,18 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 15px;
+
   .card {
+
     width: 214px;
     height: 408px;
     border: 1px solid black;
     text-align: center;
     position: relative;
+
+    flex: 0% 0 45%;
+    // height: 420px;
+    // min-width: 0;
 
     &__isNew {
       position: absolute;
@@ -125,7 +131,6 @@
   }
 }
 .swiper {
-
   width: 95%;
   height: 200px;
   max-height: 250px;
@@ -137,4 +142,18 @@
   padding-right: 15px;
   height: 200px;
   width: 100%;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  // gap: 50px;
+}
+.embla__slide {
+  flex: 0 0 45%;
+  // height: 400px;
+  min-width: 0;
+  // max-width: 320px
 }
